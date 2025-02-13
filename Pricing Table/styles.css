@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Pricing Section */
+.pricing-table {
+    padding: 50px 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Pricing Container */
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Pricing Card */
+.pricing-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    background: #f0f8ff; /* Light blue hover effect */
+}
+
+/* Featured Plan (Middle Card) */
+.featured {
+    background: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
+
+.featured:hover {
+    background: #5aa3ff; /* Lighter hover effect for featured */
+}
+
+.featured .price {
+    color: white;
+}
+
+/* List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #6faefb; /* Lighter blue on hover */
+}
+
+/* Special Hover Effect for Middle "Get Started" Button */
+.featured .btn {
+    background: white;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.featured .btn:hover {
+    background: #dceeff; /* Lightest blue for hover effect */
+    color: #0056b3;
+}
